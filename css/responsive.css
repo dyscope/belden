@@ -1,0 +1,631 @@
+@media (max-width: 1450px){
+    .mapbox{
+        padding-bottom: 40px;
+    }
+    .mapboxbot{
+        
+        width: 100%;
+        float: left;
+        display: block;
+        height: 300px;
+        margin-top: -280px;
+    }
+    .mapbox .title{
+        margin-bottom: 0;
+    }
+    .map span {
+        display: none;
+    }
+
+    .map{
+        margin: 0 auto;
+        float: none;
+        max-width: 100%;
+        background: url(../img/mini-map.png) no-repeat;
+        -moz-background-size: 90%;
+        -webkit-background-size: 90%;
+        -o-background-size: 90%;
+        background-size: 90%;
+    }
+}
+@media (max-width: 1200px){
+    .catmenu li{
+        width: 33%;
+        margin: 14px 0;
+        background: transparent;
+        box-shadow: none;
+    }
+    .catmenu li div{
+        width: 256px;
+        margin: 0 auto;
+        box-shadow: 0px 20px 35px 0px rgba(168, 175, 188, 1);
+        -webkit-box-shadow: 0px 20px 35px 0px rgba(168, 175, 188, 1);
+        -moz-box-shadow: 0px 20px 35px 0px rgba(168, 175, 188, 1);
+
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    .catmenu li:nth-child(4){
+        margin-top: -90px;
+        margin-right: 0;
+    }
+    .catmenu li:nth-child(5) {
+        margin-top: -40px;
+    }
+    .catmenu li:nth-child(6) {
+        margin-top: 18px;
+    }
+    .catmenu li:nth-child(7) {
+        margin-top: -84px;
+    }
+    .catmenu li:nth-child(8) {
+        margin-top: -34px;
+    }
+    a.download-btn{
+        right: 54px;
+    }
+    .aboutcont{
+        padding-left: 32px;
+        padding-top: 260px
+    }
+    .aboutcont li{
+        width: 100%;
+        margin-bottom: 22px;
+    }
+    .aboutcont ul{
+        margin-top: 25px;
+    }
+    .ac-item{
+        height: 100%;
+    }
+    .cont{
+        padding-left: 15px;
+    }
+    .image img{
+        max-width: 100%;
+        display: block;
+    }
+    .topcats li {
+        width: 25%;
+        margin-bottom: 25px;
+    }
+    .topcats{
+        margin-bottom: 7px;
+    }
+    .prodimg{
+        max-width: 100%;
+        height: 334px;
+        float: left;
+    }
+    .prodimg img{
+        max-width: 90%;
+        max-height: 90%;
+    }
+    .rpot .title{
+        padding-left: 15px;
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width: 992px) {
+    .navbar-custom .nav li{
+        margin: 0 5px;
+    }
+    .navbar-custom .nav li a{
+        font-size: 14px;
+    }
+    .item{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px){
+    .topinfo{
+        position: absolute;
+        top: 0;
+        right: 15px;
+    }
+    #header{
+        height: auto;
+    }
+    #header .container{
+        position: relative;
+    }
+    a.download-btn {
+        right: 15px;
+    }
+    .catmenu{
+        margin-top: 42px;
+    }
+    .catmenu ul{
+        margin-top: 100px;
+    }
+    .catmenu li {
+        width: 50%;
+        margin: 0 0 32px 0;
+    }
+    .catmenu li:nth-child(1),
+    .catmenu li:nth-child(2),
+    .catmenu li:nth-child(3),
+    .catmenu li:nth-child(4),
+    .catmenu li:nth-child(5),
+    .catmenu li:nth-child(6),
+    .catmenu li:nth-child(7),
+    .catmenu li:nth-child(8){
+        margin-top: 0;
+    }
+    .catmenu li div{
+        min-width: 256px;
+        width: 90%;
+    }
+    .catmenu li:nth-child(odd) div{
+        float: left;
+    }
+    .catmenu li:nth-child(even) div{
+        float: right;
+    }
+    .about{
+        background-position: right -60px;
+    }
+    .aboutcont{
+        padding-top: 115px;
+    }
+    .aboutcont p br{
+        display: none;
+    }
+    .aboutcont li{
+        width: 50%;
+    }
+    .about{
+        min-height: 0;
+        padding-bottom: 20px;
+    }
+    .offerstabs li{
+        width: 50%;
+    }
+    .offers{
+        padding-top: 40px;
+    }
+    #footer{
+        height: auto;
+        background: #254C87 url(../img/bg-footer.jpg) no-repeat top center;
+    }
+    .bottom{
+        height: auto;
+        background: #254C87;
+    }
+    #footer.footer-inner .bottom{
+        background: #fff;
+    }
+    #header.header-inner{
+        padding-bottom: 20px;
+    }
+    .review{
+        width: 43%;
+    }
+    .right h2{
+        font-size: 24px;
+    }
+    .item{
+        max-width: 100%;
+    }
+    .contactbox{
+        -moz-background-size: 90%;
+        -webkit-background-size: 90%;
+        -o-background-size: 90%;
+        background-size: 90%;
+        background-position: center;
+    }
+    .mapboxbot{
+        background-color: #E1E5EC;
+    }
+}
+@media (max-width: 890px){
+    .right,
+    .cont-left{
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .container>.navbar-header{
+        margin: 0;
+    }
+    .topinfo{
+        right: 80px;
+    }
+    .navbar-nav{
+        height: auto;
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+    .navbar-custom .nav li a:hover:before, 
+    .navbar-custom .nav li a.active:before {
+        visibility: none;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+    }
+    .navbar-custom .nav li {
+        margin-bottom: 10px;
+    }
+    .navbar-custom .nav li a{
+        border-bottom: 1px solid transparent;
+        display: table;
+        margin: 0 auto;
+    }
+    .navbar-custom .nav li a:hover, 
+    .navbar-custom .nav li a.active {
+        border-bottom: 1px solid #0A9237;
+    }
+    #header h2{
+        margin-top: 32px;
+        font-size: 50px;
+    }
+    .offerstabs li{
+        width: 100%;
+    }
+    .tab-pane > ul{
+        width: 330px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .map{
+        height: 400px;
+        width: 100%;
+        background: url(../img/mini-map.png) no-repeat;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
+    .map span{
+        display: none;
+    }
+    .mapbox{
+        padding-bottom: 0;
+    }
+    .offers{
+        padding-bottom: 0;
+    }
+    .prbottom a{
+        display: block;
+        clear: both;
+        margin-bottom: 64px;
+        height: 20px;
+    }
+    .rpot .cont{
+        width: 100%;
+        margin-bottom: 30px;
+        float: left;
+    }
+    .rpot .image{
+        width: 100%;
+        margin-top: 0;
+    }
+    .rpot .image img{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .rpot{
+        padding-bottom: 70px;
+    }
+    .сform{
+        float: none;
+        margin: 50px auto 0 auto;
+        max-width: 450px;
+    }
+    .contactpage .image{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contactpage .image img{
+        margin: 0 auto;
+    }
+    .cntcts{
+        width: 100%;
+    }
+
+}
+@media (max-width: 760px){
+    .search{
+        padding: 0 15px;
+    }
+    .aboutcont{
+        padding-left: 0;
+    }
+    .aboutcont p{
+        text-align: center;
+    }
+    .ac-item h3{
+        font-size: 22px;
+    }
+    .sidebar{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cont-right{
+        width: 100%;
+    }
+    .catalog > div {
+        width: 33.33333333%;
+    }
+    .item img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width:600px){
+    #header h2{
+        font-size: 40px;
+    }
+    .catmenu li div{
+        min-width: 94%;
+    }
+    .aboutcont ul{
+        width: 280px;
+        max-width: 100%;
+        float: none;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .aboutcont li {
+        width: 100%;
+    }
+    .offers_tabs .nav-tabs{
+        width: 100%;
+    }
+    .nav-tabs>li{
+        width: 50%;
+    }
+    .nav-tabs>li>a{
+        width: 100%;
+        padding: 21px 15px;
+        font-size: 20px;
+    }
+    .offerstabs li img{
+        margin-bottom: 18px;
+    }
+    .offertxt{
+        padding-left: 130px;
+    }
+    .title{
+        font-size: 100px;
+    }
+    .offers .title h2{
+        font-size: 24px;
+    }
+    .map{
+        height: 340px;
+    }
+    .mapbox .title h2{
+        font-size: 22px;
+        top: 28px;
+    }
+    .mapbox .title br{
+        display: none;
+    }
+    .catalog > div {
+        width: 50%;
+    }
+    .catalog > div.pager{
+        width: 100%;
+    }
+    .topcats li {
+        width: 50%;
+    }
+    .prod-left{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .cont-prod{
+        width: 100%;
+    }
+}
+@media (max-width:540px){
+    .actions > div{
+        width: 100%;
+    }
+    .ac-item{
+        width: 350px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .content h1{
+        text-align: center;
+    }
+}
+@media (max-width:480px){
+    a.logo{
+        float: none;
+        margin: 30px auto 20px auto;
+    }
+    .navbar-toggle{
+        margin-top: 18px;
+    }
+    .topinfo{
+        right: 0;
+        left: 0;
+        top: 92px;
+        position: absolute;
+        float: none;
+        margin: 0 auto;
+        width: 200px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .container>.navbar-header{
+        height: 170px;
+    }
+    .navbar-collapse.collapse{
+        top: 170px;
+        margin-right: -15px;
+        margin-left: 0;
+        width: 100%;
+    }
+    #header h2{
+        font-size: 30px;
+    }
+    .catmenu li{
+        width: 100%;
+    }
+    .catmenu li div{
+        max-width: 100%;
+        min-width: 256px;
+        width: 256px;
+        float: none;
+        margin: 0 auto;
+    }
+    .catmenu li:nth-child(odd) div,
+    .catmenu li:nth-child(even) div{
+        float: none;
+        margin: 0 auto;        
+    }
+    a.download-btn{
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 78px;
+    }
+    .title h2{
+        font-size: 32px;
+        top: 20px;
+    }
+    .aboutcont {
+        padding-top: 85px;
+    }
+    .about {
+        margin-top: 30px;
+        background-position: right -140px;
+    }
+    .aboutcont p{
+        font-size: 18px;
+    }
+    .nav-tabs>li>a {
+        padding: 21px 5px;
+        font-size: 18px;
+    }
+    .map {
+        height: 250px;
+    }
+    .mapbox .title h2 {
+        font-size: 20px;
+        top: 17px;
+    }
+    .bottom{
+        float: left;
+        padding-bottom: 30px;
+    }
+    .bottom .navbar{
+        min-height: 0;
+    }
+    .bottom a.btn{
+        position: relative;
+        width: 176px;
+    }
+    .bottom .container>.navbar-header{
+        height: auto;
+    }
+    .bottom .topinfo{
+        position: relative;
+        top: 0;
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .bottom .navbar-nav{
+        margin-top: 0;
+    }
+    .review{
+        width: 80%;
+        float: none;
+        margin: 0 auto 30px auto;
+    }
+    .rpot .title h2{
+        font-size: 28px;
+    }
+    .form2 form > div{
+        width: 100%;
+    }
+}
+  
+@media (max-width:370px){
+    .catmenu li div{
+        min-width: 0;
+    }
+    .aboutcont li{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .aboutcont ul{
+        padding-top: 0px;
+    }
+    .title {
+        font-size: 58px;
+    }
+    .aboutcont p{
+        font-size: 16px;
+    }
+    .title h2 {
+        font-size: 21px;
+        top: 18px;
+    }
+    .nav-tabs>li{
+        width: 100%;
+    }
+    .offerstabs li img{
+        float: none;
+        margin: 0 auto 15px auto;
+        display: block;
+    }
+    .offertxt{
+        padding-left: 0;
+        text-align: center;
+    }
+    .offertxt br{
+        display: none;
+    }
+    .offerstabs li{
+        margin-bottom: 40px;
+    }
+    .map {
+        height: 190px;
+    }
+    .mapbox .title{
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .ac-item h3{
+        padding: 0 15px;
+        font-size: 20px;
+    }
+    .catalog > div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .item{
+        margin: 0 auto;
+    }
+    .catalog > div.pager ul{
+        display: table;
+        margin: 0 auto;
+    }
+    .topcats li {
+        width: 100%;
+    }
+    .options table td:nth-child(odd){
+        padding-left: 5px;
+    }
+    .options table td:nth-child(even) {
+        padding-right: 5px;
+        font-size: 16px;
+    }
+    .rpot .title h2{
+        font-size: 20px;
+    }
+
+}
